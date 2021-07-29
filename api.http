@@ -1,0 +1,26 @@
+###
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+	"text": "Doooooooooooo!!!!!!!"
+}
+###
+GET http://localhost:3000/todos/
+
+###
+PATCH http://localhost:3000/todos/0.28945301860432493
+Content-Type: application/json
+
+{
+	"text": "Updated!?????"
+}
+###
+PATCH http://localhost:3000/todos/0.
+Content-Type: application/json
+
+{
+	"text": "Updated!?????"
+}
+###
+DELETE http://localhost:3000/todos/0.40110271104731643
